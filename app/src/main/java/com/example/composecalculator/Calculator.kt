@@ -24,7 +24,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.composecalculator.ui.theme.LightGray
 import com.example.composecalculator.ui.theme.MediumGray
-import com.example.composecalculator.ui.theme.Orange
+import com.example.composecalculator.ui.theme.Green
 
 
 @Composable
@@ -84,7 +84,7 @@ fun Calculator(
                 }
                 Button(
                     symbol = "/",
-                    color = Orange,
+                    color = Green,
                     modifier = Modifier
                         .aspectRatio(1f)
                         .weight(1f)
@@ -126,7 +126,7 @@ fun Calculator(
                 }
                 Button(
                     symbol = "x",
-                    color = Orange,
+                    color = Green,
                     modifier = Modifier
                         .aspectRatio(1f)
                         .weight(1f)
@@ -168,7 +168,7 @@ fun Calculator(
                 }
                 Button(
                     symbol = "-",
-                    color = Orange,
+                    color = Green,
                     modifier = Modifier
                         .aspectRatio(1f)
                         .weight(1f)
@@ -210,7 +210,7 @@ fun Calculator(
                 }
                 Button(
                     symbol = "+",
-                    color = Orange,
+                    color = Green,
                     modifier = Modifier
                         .aspectRatio(1f)
                         .weight(1f)
@@ -243,7 +243,7 @@ fun Calculator(
                 }
                 Button(
                     symbol = "=",
-                    color = Orange,
+                    color = Green,
                     modifier = Modifier
                         .aspectRatio(1f)
                         .weight(1f)
